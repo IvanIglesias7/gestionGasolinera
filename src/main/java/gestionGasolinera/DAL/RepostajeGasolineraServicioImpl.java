@@ -10,6 +10,10 @@ public class RepostajeGasolineraServicioImpl implements RepostajeGasolineraServi
 	private EntityManager em;
 
 	@Override
+	public void addRepostajeGasolina(RepostajeGasolinera rg) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 	

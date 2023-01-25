@@ -1,5 +1,6 @@
 package gestionGasolinera.Impl;
 
+import java.util.Calendar;
 import java.util.Scanner;
 import org.springframework.stereotype.Service;
 
@@ -24,6 +25,12 @@ public class MenuServiceImpl implements MenuService {
 		System.out.println("[INFO] - Escriba el numero de la opcion deseada: ");
 		opcion = opcionElegida.nextInt();
 		return opcion;
+	}
+
+	@Override
+	public boolean repostajeNormal(Calendar fch_actual, ConsultasService consultas) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }
